@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>resume</title>
+    <link rel="icon" type="image/jpg" href="images/gigachad.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="scripts/darkMode.js" defer></script>
+  </head>
+  <body>
+
+    <header class="navBar">
+      <div class="navDiv">
+        <div class="logo">Emre Tiryaki</div>
+        <div class="option" id="aboutLink">About me</div>
+        <div class="option" id="talentsLink">Talents</div>
+        <div class="option" id="imagesLink">Pictures</div>
+        <div class="languages">
+          <button>Language <img src="icons/united-states.png" alt="" id="icon"></button>
+          <div class="languages-content">
+            <a href="index-turkish.html"><img src="icons/turkey.png" alt="turkish flag icon" id="icon"> Turkish</a>
+            <a href="index-german.html"><img src="icons/german.png" alt="" id="icon"> German</a>
+            <a href="index-italian.html"><img src="icons/italy.png" alt="" id="icon"> Italian</a>
+          </div>
+        </div>
+        <div class="pdf"><a href="Pdf/English.pdf">Get CV</a></div>
+        <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div id="left-container" style="margin-right: 20px;">
+          <div id="content">
+            <img src="images/profile-picture.jpg" alt="this is a picture of me" style="border-radius: 100%;">
+            <p style="font-size:smaller; color: white;text-align: center;padding-bottom: 8px;margin-bottom: 0%;border-bottom: 0.2px solid rgb(255, 237, 202);cursor: default;">Web developer</p>
+            <div id="education" style="margin-bottom: 15px;">
+              <p style="color: white;text-align: left;font-size: 10px;font-weight: bold;margin-top: 5px;margin-left: 0px;margin-bottom: 0%;text-decoration: underline;">Education:</p>
+              <span style="color: aqua;font-size: 9px;margin: 0%;padding: 0%;text-decoration: underline;">2023-2028</span>            
+              <ul style="list-style: none;color: white;margin: 0%;font-size: 7px;padding: 0px;">
+                <li>-<a href="https://www.inonu.edu.tr" target="_blank">İnönü üniversitesi</a></li>
+                <li>-<a href="https://www.inonu.edu.tr/yazilim" target="_blank">Yazılım mühendisliği bölümü</a> </li>  
+              </ul>
+              <span style="color: aqua;font-size: 9px;margin: 0%;padding: 0%;text-decoration: underline;">2018-2023</span>
+              <ul style="list-style: none;color: white;margin: 0%;font-size: 7px;padding: 0px;">
+                <li>-<a href="https://yakakentcpal.meb.k12.tr" target="_blank">Anadolu lisesi</a></li>
+                <li>-<a href="https://yakakentcpal.meb.k12.tr" target="_blank">Yakakent Çok Programlı Anadolu Lisesi</a> </li>  
+              </ul>
+            </div>
+            <div id="languages">
+              <p style="color: white;text-align: left;font-size: 10px;font-weight: bold;margin-top: 0px;margin-left: 0px;margin-bottom: 0%;text-decoration: underline;">Diller:</p>
+            </div>
+            <div class="text">
+              <span>Turkish</span>
+              <span id="percent-Turkish" class="percent" style="display: none;">%100</span>
+            </div>  
+            <div class="proggress-bar" id="Turkish-bar">
+                <div class="proggress" style="width: 100%;"></div>
+            </div>
+            <div class="text">
+              <span>English</span>
+              <span id="percent-English" class="percent" style="display: none;">%93</span>
+            </div>  
+            <div class="proggress-bar" id="English-bar">
+                <div class="proggress" style="width: 93%;"></div>
+            </div>
+            <div class="text">
+              <span>Italian</span>
+              <span id="percent-Italian" class="percent" style="display: none;">%25</span>
+            </div>  
+            <div class="proggress-bar" id="Italian-bar">
+                <div class="proggress" style="width:25%;"></div>
+            </div>
+            <div class="text">
+              <span>German</span>
+              <span id="percent-German" class="percent" style="display: none;">%13</span>
+            </div>
+            <div class="proggress-bar" id="German-bar">
+                <div class="proggress" style="width: 13%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-container" id="content-container" style="display: inline-block;">
+          <div id="content">
+            <div class="personal-information">
+              <div id="text">Personal information:</div>
+              <ul style="margin: 0%; font-size: 10px;padding: 0px;padding-left: 20px;">
+                <li><b>Name:</b> Emre Tiryaki</li>
+                <li><b>Birthdate:</b> 30/12/2005</li>
+                <li><b>Age:</b> 18</li>
+                <li><b>Home town:</b> Turkey/Samsun</li>
+              </ul>
+            </div>
+            <div style="display: inline-block;background-color: grey; width: 100%;height: 0.5px;margin: auto;margin-bottom: 0%;"></div>
+            <div class="goals">
+              <div id="text">Goals:</div>
+              <ul style="margin: 0%;font-size: 10px;padding: 0px;padding-left: 20px;">
+                <li>To become a knowledgeable, equipped and talented web developer by completing my software engineering education.</li>
+                <li>Developing useful, popular and innovative web projects using my web development skills.</li>
+                <li>Developing myself in this field at least enough to become one of the leading names in the industry.</li>
+              </ul>
+              <div style="display: inline-block;background-color: grey; width: 100%;height: 0.5px;margin: auto;margin-bottom: 0%;"></div>
+              <div id="text">Areas of interest:</div>            
+              <div class="areas-of-interest">
+                <ul style="display: inline-block;margin: 0%;font-size: 10px;padding: 0px;padding-left: 20px;">
+                  <li>Software development <a href="https://tr.wikipedia.org/wiki/Yazılım_geliştirme" target="_blank">⌨</a></li>
+                  <li>technology trends <a href="https://tr.wikipedia.org/wiki/Teknoloji" target="_blank">⚙</a></li>
+                  <li>Basketball <a href="https://tr.wikipedia.org/wiki/Basketbol" target="_blank">🏀</a></li>
+                  <li>Competitive programming <a href="https://en.wikipedia.org/wiki/Competitive_programming" target="_blank">🛠</a></li>
+                  <li>Playing games <a href="https://tr.wikipedia.org/wiki/Video_oyunu" target="_blank">🎮</a></li>
+                </ul>
+                <ul style="display: inline-block;margin: 0%;font-size: 10px;padding: 0px;padding-left: 20px;">
+                  <li>Software design <a href="https://tr.wikipedia.org/wiki/Yazılım_tasarımı" target="_blank">🎨</a></li>
+                  <li>Web development <a href="https://tr.wikipedia.org/wiki/Web_geliştirici" target="_blank">💻</a></li>
+                  <li>Learning languages <a href="https://tr.wikipedia.org/wiki/Yabancı_dil" target="_blank">🌎</a></li>
+                  <li>Reading books <a href="https://tr.wikipedia.org/wiki/Kitap" target="_blank">📖</a></li>
+                </ul>
+              </div>
+            </div>
+            <div style="display: inline-block;background-color: grey; width: 100%;height: 0.5px;margin: auto;margin-bottom: 0%;"></div>
+            <div class="my-projects">
+              <div id="text">Projects that I made:</div>
+              <ul style="display: inline-block;margin: 0%;font-size: 10px;padding: 0px;padding-left: 20px;">
+                <li><a href="https://github.com/emre-tiryaki/XOX">XOX game(C)</a></li>
+                <li><a href="#" target="_blank">Bank management system(C)(does not exist anymore)</a></li>
+                <li><a href="#">my blog(HTML CSS JS)</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-container" id="talents-container" style="display: none;">
+          <div id="page-1" class="talents-content">
+              <div id="text" >Talents:</div>
+              <div>
+              <ul>
+                <li><b>Creativity:</b>Ability to produce new and different ideas and solutions.</li>
+                <li><b>Zaman yönetimi:</b>Being able to do more than one project or job at the same time. Being able to use my time effectively and efficiently.</li>
+                <li><b>Etkin iletişim:</b>Ability to explain technical issues in an understandable manner, regardless of whether someone has knowledge on the subject or not..</li>
+                <li><b>Ekip çalışması:</b>Being able to produce quality projects with different people without experiencing communication problems.</li>
+                <li><b>İşletim sistemleri:</b>Windows, Linux etc. Have knowledge and experience of different operating systems.</li>
+                <li><b>Veritabanları:</b>Knowledge of database languages ​​and relational database systems such as SQL.</li>
+                <li><b>Veri yapları ve algoritmalar:</b>To be knowledgeable about the algorithms and data structures that will lead to the solution in the fastest and most efficient way so that the software can work more efficiently and safely..</li>
+                <li><b>Sürüm kontrol sistemleri:</b>Being knowledgeable and experienced in version control systems such as Git and Aegis.</li>
+                <li><b>Yazılım geliştirme teknikleri:</b>Agile model, Waterfall model, Waterfall model etc. Having knowledge about different software development methods such as.</li>
+              </ul>
+              <div class="pagination" id="next-page"><i class="bi bi-arrow-right"></i></div>
+            </div>
+          </div>
+          
+
+          <div class="talents-content" id="page-2">
+            <div id="text">Programming languages:</div>            
+            
+            <div class="progress-bar-container">
+              <div class="text">
+                <span id="programming-labels">HTML <i class="fa-brands fa-html5" style="color: orange;"></i></span>
+                <span id="percent-HTML" class="percent" style="display: none;">%100</span>
+              </div>  
+              <div class="programmin-proggress-bar" id="HTML-bar">
+                <div id="proggress" style="width: 100%;"></div>
+              </div>
+            </div>
+            
+            <div class="progress-bar-container">
+              <div class="text">
+                <span id="programming-labels">CSS <i class="fa-brands fa-css3-alt" style="color: rgb(104, 104, 236);"></i></span>
+                <span id="percent-CSS" class="percent" style="display: none;">%90</span>
+              </div>  
+              <div class="programmin-proggress-bar" id="CSS-bar">
+                <div id="proggress" style="width: 90%;"></div>
+              </div>
+            </div>
+            
+            <div class="progress-bar-container">
+              <div class="text">
+                <span id="programming-labels">JS <i class="fa-brands fa-js" style="color: rgb(189, 189, 0);"></i></span>
+                <span id="percent-JS" class="percent" style="display: none;">%99</span>
+              </div>  
+              <div class="programmin-proggress-bar" id="JS-bar">
+                <div id="proggress" style="width: 99%;"></div>
+              </div>
+            </div>
+
+            <div class="progress-bar-container">
+              <div class="text">
+                <span id="programming-labels">MySQL <i class="fa-solid fa-fish-fins" style="color: rgb(95, 143, 180);"></i></span>
+                <span id="percent-MySQL" class="percent" style="display: none;">%94</span>
+              </div>  
+              <div class="programmin-proggress-bar" id="MySQL-bar">
+                <div id="proggress" style="width: 94%;"></div>
+              </div>
+            </div>
+
+            <div class="progress-bar-container">
+              <div class="text">
+                <span id="programming-labels">MongoDB <i class="fa-solid fa-leaf" style="color: rgb(67, 185, 65);"></i></span>
+                <span id="percent-MongoDB" class="percent" style="display: none;">%85</span>
+              </div>  
+              <div class="programmin-proggress-bar" id="MongoDB-bar">
+                <div id="proggress" style="width: 85%;"></div>
+              </div>
+            </div>
+            
+            <div class="progress-bar-container">
+              <div class="text">
+                <span id="programming-labels">C <i class="fa-brands fa-cuttlefish" style="color: rgb(3, 109, 191);"></i></span>
+                <span id="percent-C" class="percent" style="display: none;">%98</span>
+              </div>  
+              <div class="programmin-proggress-bar" id="C-bar">
+                <div id="proggress" style="width: 98%;"></div>
+              </div>
+            </div>
+            
+            <div class="progress-bar-container">
+              <div class="text">
+                <span id="programming-labels">Java <i class="fa-brands fa-java"></i></span>
+                <span id="percent-JAVA" class="percent" style="display: none;">%40</span>
+              </div>  
+              <div class="programmin-proggress-bar" id="JAVA-bar">
+                <div id="proggress" style="width: 40%;"></div>
+              </div>
+            </div>
+            
+            <div class="progress-bar-container">
+              <div class="text">
+                <span id="programming-labels">Python <i class="fa-brands fa-python"></i></span>
+                <span id="percent-PYTHON" class="percent" style="display: none;">%20</span>
+              </div>  
+              <div class="programmin-proggress-bar" id="PYTHON-bar">
+                <div id="proggress" style="width: 20%;"></div>
+              </div>
+            </div>
+            
+            <div class="progress-bar-container">
+              <div class="text">
+                <span id="programming-labels"></span>
+                <span></span>
+              </div>
+            </div>
+
+
+            <div class="pagination" id="previous-page"><i class="bi bi-arrow-left"></i></div>
+          </div>
+        </div>
+
+        <div class="right-container" style="justify-content: left;text-align: left;display: none;" id="image-container">
+          <div class="image-content">
+            <img src="images/image1.jpg" id="image" class="image" alt="my picture">
+            <div id="image-information" style="height: 58%;">
+              <div id="image-description">
+                <ul style="color: rgb(0, 0, 0);margin: 0%;font-size: 67%;padding: 15px;">
+                  <li><b>History:</b> 14/03/2024</li>
+                  <li><b>Location:</b> İnönü üniversitesi mühendislik fakültesi Yazılım labaratuvarı</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="image-content">
+            <img src="images/image2.jpg" id="image" alt="my picture">
+            <div id="image-information" style="height: 58%;">
+              <div id="image-description">
+                <ul style="color: rgb(0, 0, 0);margin: 0%;font-size: 67%;padding: 15px;">
+                  <li><b>History:</b> 18/03/2024</li>
+                  <li><b>Location:</b> İnönü üniversitesi mühendislik fakültesi Yazılım labaratuvarı</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="image-content" >
+            <img src="images/image3.jpg" id="image" alt="my picture">
+            <div id="image-information" style="height: 58%;">
+              <div id="image-description">
+                <ul style="color: rgb(0, 0, 0);margin: 0%;font-size: 67%;padding: 15px;">
+                  <li><b>History:</b> 24/03/2024</li>
+                  <li><b>Location:</b> Malatya Park AVM
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="image-content">
+            <img src="images/image4.jpg" id="image" alt="my picture">
+            <div id="image-information" style="height: 48%;">
+              <div id="image-description">
+                <ul style="color: rgb(0, 0, 0);margin: 0%;font-size: 67%;padding: 15px;">
+                  <li><b>History:</b> 26/04/2024</li>
+                  <li><b>Location:</b> İnönü üniversitesi mühendislik fakültesi mühendislik kafe</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="image-content">
+            <img src="images/image5.jpg" id="image" alt="my picture">
+            <div id="image-information" style="height: 48%;">
+              <div id="image-description">
+                <ul style="color: rgb(0, 0, 0);margin: 0%;font-size: 67%;padding: 15px;">
+                  <li><b>History:</b> 05/12/2023</li>
+                  <li><b>Location:</b> İnönü üniversitesi mühendislik fakültesi okuma salonu</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="image-content">
+            <img src="images/image6.jpg" id="image" alt="my picture">
+            <div id="image-information" style="height: 58%;">
+              <div id="image-description">
+                <ul style="color: rgb(0, 0, 0);margin: 0%;font-size: 67%;padding: 15px;">
+                  <li><b>History:</b> 26/05/2024</li>
+                  <li><b>Location:</b> İnönü üniversitesi Botanik kafe</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </main>
+    
+    <footer class="footerBar" style="clear: both;">
+      <div class="socialLinks">
+        <a href="https://www.youtube.com/channel/UC2ZrBsEU796f_hzmf5yfCIA"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61553641086033"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/emre._.tiryaki/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/emre-tiryaki"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/emre-tiryaki-7448b6290/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://steamcommunity.com/my/"><i class="fa-brands fa-steam"></i></a>
+      </div>
+      <div class="footerNav">
+        <div id="contact-information-text" style="font-weight: bold;text-decoration: underline;font-size: 12px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Contact information</div>
+        <div id="contact-information-text">e-mail: <a href="mailto:tiryakiemre18@gmail.com">tiryakiemre18@gmail.com 📧</a></div>
+        <div id="contact-information-text">phone number: +90 544 319 52 15 📞</div>
+        </div>
+      <div class="copyright">
+        <p>Copyright ©2024; Designed by Emre Tiryaki</p>
+      </div>
+    </footer>
+
+    <script src="scripts/percent.js"></script>
+    <script src="scripts/navBar-buttons.js"></script>
+    <script src="scripts/image-information.js"></script>
+    <script src="scripts/pagination-buttons.js"></script>
+  </body>
+</html>
