@@ -16,7 +16,7 @@ This is a personal portfolio website for Emre Tiryaki. It showcases my resume, s
 - **Dark Mode**: Toggle between light and dark modes for better readability.
 - **Multilingual**: Available in Turkish, English, German, and Italian.
 - **Responsive Design**: Works on all devices, from desktops to mobile phones.
-- **Interactive Elements**: Includes interactive language selection and download CV button.
+- **Interactive Elements**: Includes interactive language selection and download CV button(Download cv button is only available in turkish and english).
 - **Project Showcase**: Displays a list of personal projects with links to their repositories.
 - **Education and Skills**: Highlights educational background and programming skills.
 - **Personal Information**: Displays personal details, goals, and interests.
@@ -47,7 +47,7 @@ Make sure you have a modern web browser installed.
 
 2. **Open the index.html file**
 
-   Navigate to the project directory and open `index.html` in your browser.
+   Navigate to the project directory and open `index-turkish.html` in your browser.
 
 ## File Structure
 
@@ -55,28 +55,32 @@ Make sure you have a modern web browser installed.
 personal-portfolio/
 ├── images/
 │   ├── gigachad.jpg
-│   ├── profile-picture.jpg
 │   ├── image1.jpg
 │   ├── image2.jpg
 │   ├── image3.jpg
 │   ├── image4.jpg
 │   ├── image5.jpg
-│   └── image6.jpg
+│   ├── image6.jpg
+│   └── profile-picture.jpg
 ├── icons/
-│   ├── turkey.png
-│   ├── united-states.png
 │   ├── german.png
-│   └── italy.png
+│   ├── italy.png
+│   ├── turkey.png
+│   └── united-states.png
 ├── scripts/
-│   └── darkMode.js
-├── styles/
-│   └── style.css
+│   ├── darkMode.js
+|   ├──image-information.js
+|   ├──navBar-buttons.js
+|   ├──pagination-buttons.js
+|   └──percent.js 
 ├── Pdf/
+|   ├──English.pdf
 │   └── Turkish.pdf
-├── index.html
 ├── index-english.html
 ├── index-german.html
 └── index-italian.html
+├── index-turkish.html
+└── style.css
 ```
 
 ## Customization
@@ -91,7 +95,7 @@ To customize the website, you can modify the following files:
 
 For any inquiries or feedback, you can reach me at:
 
-- **Email**: [emre.tiryaki@example.com](mailto:emre.tiryaki@example.com)
+- **Email**: [tiryakiemre18@gmail.com](mailto:tiryakiemre18@gmail.com)
 - **GitHub**: [github.com/emre-tiryaki](https://github.com/emre-tiryaki)
 
 ---
